@@ -1,0 +1,24 @@
+
+.footer {
+  background: #00770c;
+  color: white;
+  bottom: 0;
+  height: auto;
+  text-align: center;
+  position: fixed;
+  padding: 0.625rem 0.625rem 0.625rem 0.625rem;
+  width: 100%;
+  }
+  
+  .socialMedia svg {
+    margin: 20px;
+    font-size: 70px;
+    cursor: pointer;
+  }
+
+  
+  @media only screen and (max-width: 600px) {
+    .footer svg {
+      font-size: 50px;
+    }
+  }
