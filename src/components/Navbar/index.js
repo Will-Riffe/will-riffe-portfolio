@@ -6,14 +6,18 @@ import ReorderIcon from "@mui/icons-material/Reorder";
 
 function Navbar() {
     const [expandNavbar, setExpandNavbar] = useState(false);
-
     const location = useLocation();
+    const noNavbar = location.pathname === '/';
 
     {/* Here useEffect collapses accordian as user navigates pages*/}
     useEffect(() => {
         setExpandNavbar(false)
     }, [location]);
 
+    if (noNavbar) {
+        return null; // doesn't render nav on home page
+    }
+    
   return (
     <div className="navbar" id={expandNavbar ? "open" : "close"}>
 
