@@ -2,10 +2,28 @@
     color:goldenrod;
 }
 
- .buttonStyle {
-    color:goldenrod;
- }
+.buttonStyle {
+  text-decoration: none;
+  background-color: darkgoldenrod;
+  border: none; 
+  color: VAR(--background-color); 
+  padding: 10px 20px;
+  border-radius: 5px;
+}
+
+.buttonStyle:hover {
+  background-color: goldenrod;
+}
   
+.activeStyle {
+  text-decoration: none;
+  background-color: goldenrod;
+  border: none; 
+  color: VAR(--background-color); 
+  padding: 10px 20px;
+  border-radius: 5px;
+}
+
  img {
     background-color:goldenrod;
  }
@@ -35,6 +53,27 @@
     color:  rgb(0, 255, 21);
   }
   
+
+  .about {
+    color: goldenrod;
+    text-decoration: underline;
+  }
+  
+
+  .aboutSection {
+    margin: 20px;
+  }
+  
+  .aboutSection h3 {
+    font-size: 24px;
+    color: goldenrod;
+  }
+  
+  .aboutSection p {
+    font-size: 18px;
+    color: var(--textc);
+  }
+
 
   /* Extra-Small devices (<451px) */
 @media only screen and (max-width: 351px) {

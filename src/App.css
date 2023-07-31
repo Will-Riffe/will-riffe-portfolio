@@ -1,10 +1,10 @@
 :root {
   --background-color: #013705;
-  --outer-color: #01822c3d; /* Adjusted alpha value */
+  --outer-color: #00491145; 
   --inner-color: #05c846ba;
   --scan-inner: #00ff553d;
   --border-color: rgb(0, 143, 29);
-  --textc: #ffffff;
+  --textc: goldenrod;
   --font-size-h1: 30pt;
   --font-size-h2: 20pt;
   --font-size-button: 16pt;

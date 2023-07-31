@@ -1,7 +1,6 @@
 
 .footer {
-  background: #00491145;
-  color: white;
+  background: var(--outer-color);
   bottom: 0;
   height: auto;
   text-align: center;

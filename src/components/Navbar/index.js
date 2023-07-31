@@ -33,9 +33,12 @@ function Navbar() {
 
         {/* navbar links */}
         <div className="links">
-            <Link to="/">Home</Link>
-            <Link to="/projects">Projects</Link>
-            <Link to="/experience">Experience</Link>
+            {/* <Link to="/">Home</Link> */}
+            <Link to="#">Will Riffe</Link>
+            <Link to="/about">ABOUT</Link>
+            <Link to="/contact">CONTACT</Link>
+            <Link to="/portfolio">PORTFOLIO</Link>
+            <Link to="/resume">RÉSUMÉ</Link> 
         </div>
 
     </div>
