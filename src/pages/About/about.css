@@ -1,0 +1,18 @@
+
+
+
+.body1 {
+max-width: 80vw;
+margin: 10vw;
+padding: 20px;
+text-align: justify;
+display: flex;
+flex-wrap: wrap;
+flex:1;
+padding-bottom: 100px;
+}
+
+
+.headline {
+    text-align:left;
+}

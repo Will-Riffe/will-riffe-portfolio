@@ -1,23 +1,22 @@
-
 .footer {
   background: var(--outer-color);
-  bottom: 0;
-  height: auto;
   text-align: center;
-  position: fixed;
-  padding: 0.625rem 0.625rem 0.625rem 0.625rem;
+  padding: 0.625rem;
   width: 100%;
-  }
-  
-  .socialMedia svg {
-    margin: 20px;
-    font-size: 70px;
-    cursor: pointer;
-  }
+  position: sticky;
+  bottom: 0;
+  left: 0;
+  display: flex;
+  flex-direction: column;
+}
 
-  
-  @media only screen and (max-width: 600px) {
-    .footer svg {
-      font-size: 50px;
-    }
-  }
+.footer-content {
+  padding: 0.625rem;
+}
+
+.socialMedia svg {
+  margin: 2vw;
+  font-size: 2rem;
+  cursor: pointer;
+}
+

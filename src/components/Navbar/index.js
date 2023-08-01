@@ -14,9 +14,9 @@ function Navbar() {
         setExpandNavbar(false)
     }, [location]);
 
-    if (noNavbar) {
+    /* if (noNavbar) {
         return null; // doesn't render nav on home page
-    }
+    } */
     
   return (
     <div className="navbar" id={expandNavbar ? "open" : "close"}>

@@ -1,8 +1,8 @@
 :root {
   --background-color: #013705;
-  --outer-color: #00491145; 
-  --inner-color: #05c846ba;
-  --scan-inner: #00ff553d;
+  --outer-color: #004911; 
+  --inner-color: #05c846;
+  --scan-inner: #00ff55;
   --border-color: rgb(0, 143, 29);
   --textc: goldenrod;
   --font-size-h1: 30pt;
