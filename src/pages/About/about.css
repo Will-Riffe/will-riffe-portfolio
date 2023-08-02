@@ -28,3 +28,26 @@
 .headline {
   text-align: left;
 }
+
+.pageTheme {
+  position:relative;
+  top:0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: var(--background-color);
+  z-index: 1;
+}
+
+.scan {
+  position: absolute;
+  height: 150vh;
+  top: -80px;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: linear-gradient(var(--background-color), var(--scan-inner));
+  opacity: 0.015;
+  z-index: 99;
+  animation: scan 5s infinite;
+}

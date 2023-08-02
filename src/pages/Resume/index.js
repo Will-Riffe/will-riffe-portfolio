@@ -1,19 +1,27 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { Document, Page } from 'react-pdf';
-import resumePDF from '../../assets/Resume_Will_Riffe_8.2.2024.pdf';
-import './Resume.css';
 
-function Resume() {
+function MyPortfolio() {
+  const [numPages, setNumPages] = useState(null);
+  const [pageNumber, setPageNumber] = useState(1);
+
+  function onDocumentLoadSuccess({ numPages }) {
+    setNumPages(numPages);
+  }
+
   return (
     <div>
-      <h1>Your Resume</h1>
-      <div className="pdf-container">
-        <Document file={resumePDF}>
-          <Page pageNumber={1} />
-        </Document>
-      </div>
+      <Document
+        file="../../assets/Resume_Will_Riffe_8.2.2024.pdf"
+        onLoadSuccess={onDocumentLoadSuccess}
+      >
+        <Page pageNumber={pageNumber} />
+      </Document>
+      <p>
+        Page {pageNumber} of {numPages}
+      </p>
     </div>
   );
 }
 
-export default Resume;
+export default MyPortfolio;

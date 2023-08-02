@@ -9,29 +9,9 @@ import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
 
 function App() {
-  const scanRef = useRef(null);
-
-  const setScanHeight = () => {
-    if (scanRef.current) {
-      const pageContentHeight = document.body.scrollHeight;
-      scanRef.current.style.height = pageContentHeight + 'px';
-    }
-  };
-
-  useEffect(() => {
-    // Call setScanHeight when the component is mounted and whenever the window is resized
-    setScanHeight();
-    window.addEventListener('resize', setScanHeight);
-
-    // Cleanup the event listener on unmount
-    return () => {
-      window.removeEventListener('resize', setScanHeight);
-    };
-  }, []);
-
   return (
     <div className="pageTheme crt">
-      <div className="scan" ref={scanRef}></div>
+      <div className="scan"></div>
       <Router>
         <Navbar />
         <Routes>

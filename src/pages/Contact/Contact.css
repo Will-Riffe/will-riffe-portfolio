@@ -52,3 +52,25 @@
     outline: none;
   }
   
+  .pageTheme {
+    position:relative;
+    top:0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: var(--background-color);
+    z-index: 1;
+  }
+  
+  .scan {
+    position: absolute;
+    height: 53vh;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: linear-gradient(var(--background-color), var(--scan-inner));
+    opacity: 0.01;
+    z-index: 99;
+    animation: scan 4s infinite;
+  }
