@@ -2,12 +2,17 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import { Typography } from '@mui/material';
 import './about.css';
+import profilePic from '../../assets/Will Riffe.jpeg';
 
 
 
 function About() {
   return (
     <div className="body1">
+      <div className='profile-container'>
+        <img src={profilePic} alt="profile picture" className="profile-picture"/>
+      </div>
+      <div className='content-container'>
       <div className='headline'>
         <Typography variant="h4" >
           Beyond the Screen—
@@ -37,6 +42,8 @@ function About() {
       <Typography variant="body1" gutterBottom>
         From a coding perspective, I try to build maintainable, scalable code. I enjoy orchestrating projects and thrive on setting goals with structured schedules. Embracing continuous learning, I emphasize user-friendliness, accessibility, and security. Empathy drives my successful software solutions, as I have plenty enough to keep both the user and my teammates in mind. As a full-stack developer, I seek fulfilling opportunities to build a better digital world with like-minded collaborators and strive to do so.
       </Typography>
+
+      </div>
     </div>
   );
 }

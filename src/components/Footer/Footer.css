@@ -1,10 +1,10 @@
 .footer {
     background: var(--outer-color);
     bottom: 0;
-    height: 10rem;
-    position: absolute;
+    height: auto;
     width: 100%;
     text-align: center;
+    
   }
 
 .footer-content {
