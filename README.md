@@ -4,7 +4,7 @@
 
 This is my Portfolio page! A web app showcasing my journey as a web developer, and displaying some of my more notable projects. This portfolio is built statically using React.js, utilizing several libraries and tools to create an interactive, visually appealing experience for anyone who is interested in my work as a student and professional.
 
-Visit the live portfolio: [https://will-riffe.github.io/will-riffe-portfolio/](https://will-riffe.github.io/will-riffe-portfolio/)
+Visit the live portfolio: [https://will-riffe.github.io/](https://will-riffe.github.io/)
 
 ## Table of Contents
 
