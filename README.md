@@ -6,6 +6,8 @@ This is my Portfolio page! A web app showcasing my journey as a web developer, a
 
 Visit the live portfolio: [https://will-riffe.github.io/](https://will-riffe.github.io/)
 
+![Screenshot of Portfolio Web App](/src/assets/Portfolio.png)
+
 ## Table of Contents
 
 1. [Technologies Used](#technologies-used)
