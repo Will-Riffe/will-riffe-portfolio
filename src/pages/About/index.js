@@ -15,7 +15,7 @@ function About() {
       <div className='content-container'>
       <div className='headline'>
         <Typography variant="h4" >
-          Beyond the Screen—
+          Behind the Screen—
         </Typography>
       </div>
       <br/>

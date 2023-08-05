@@ -1,6 +1,40 @@
 .pdf-container {
-    width: 100%;
-    max-width: 800px; 
-    margin: 0 auto;
-  }
-  
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+  align-items: center;
+  margin: 40px auto;
+  max-width: 800px;
+}
+
+.pdf-page {
+  width: 90vw;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f0f0f0;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  text-decoration: none;
+  color: #333;
+  font-size: 16px;
+  transition: background-color 0.3s ease;
+}
+
+.pdf-page:hover {
+  background-color: #e0e0e0;
+}
+
+.pdf-page img {
+  max-width: 100%;
+  max-height: 100%;
+  border-radius: 8px;
+}
+
+.pdf-page p {
+  margin-top: 10px;
+}

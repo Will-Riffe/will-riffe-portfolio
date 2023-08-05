@@ -31,7 +31,6 @@ body {
   margin: 0;
 }
 
-
 .crt::before {
   content: " ";
   display: block;
@@ -41,8 +40,8 @@ body {
   bottom: 0;
   right: 0;
   background: linear-gradient(
-      rgba(18, 16, 16, 0.2) 50%, /* Adjusted alpha value */
-      rgba(0, 0, 0, 0.1) 50% /* Adjusted alpha value */
+      rgba(18, 16, 16, 0.2) 50%,
+      rgba(0, 0, 0, 0.1) 50% 
     ),
     linear-gradient(90deg, rgba(255, 0, 0, 0.06), rgba(0, 255, 0, 0.02), rgba(0, 0, 255, 0.06));
   background-size: 100% 2px, 3px 100%;
@@ -124,8 +123,8 @@ body {
   left: 0;
   bottom: 0;
   right: 0;
-  background: rgba(18, 16, 16, 0.02); /* Adjusted alpha value */
-  opacity: 0.9; /* Adjusted opacity value */
+  background: rgba(18, 16, 16, 0.02);
+  opacity: 0.9;
   z-index: 2;
   pointer-events: none;
   animation: flicker 0.1s infinite;
@@ -140,5 +139,29 @@ body {
 
   100% {
     transform: translateY(100%);
-  }
+  } 
+}
+
+
+.pageTheme {
+  position:fixed;
+  top:0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: var(--background-color);
+  z-index: 1;
+}
+
+
+.scan {
+  position: absolute;
+  height: 100%;
+  top: -80px;
+  right: 0;
+  bottom: 0;
+  background: linear-gradient(var(--background-color), var(--scan-inner));
+  opacity: 0.015;
+  z-index: 99;
+  animation: scan 5s infinite;
 }
