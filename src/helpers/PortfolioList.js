@@ -1,6 +1,6 @@
 import Proj1 from '../assets/EventScout.png';
 import Proj2 from '../assets/permutater.png';
-import Proj3 from '../assets/Sustain-A-Plate.png';
+import Proj3 from '../assets/Sustain-a-Plate-Page.png';
 
 const PortfolioList = [
   {

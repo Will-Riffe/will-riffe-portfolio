@@ -1,10 +1,16 @@
-.portfolio {
+section.portfolio {
     width: 100%;
     height: auto;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    margin-bottom: 6vh;
+    margin-top: 6vh;
+  }
+
+  section.portfolio h1 {
+        margin-bottom: 6vh;
   }
   .portfolio .projectTitle {
     text-align: center;
