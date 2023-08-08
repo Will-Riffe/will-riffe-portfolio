@@ -56,3 +56,4 @@ This project is licensed under the MIT License - see the [LICENSE](https://githu
 ## Credits
 
 This portfolio web app is designed and developed by [Will Riffe](https://github.com/Will-Riffe). Special thanks to the creators of React.js, React Router DOM, Material-UI, Emotion, and react-vertical-timeline-component for their fantastic tools. Additional thanks to the web development community for inspiration and learning resources, and specifically to [Pedro Henrique Machado](https://github.com/machadop1407/react-personal-portfolio-website) whose own react app inspired me.
+

@@ -1,21 +1,21 @@
 {
   "files": {
-    "main.css": "/will-riffe-portfolio/static/css/main.bef1d5b8.css",
-    "main.js": "/will-riffe-portfolio/static/js/main.adf8daf0.js",
+    "main.css": "/will-riffe-portfolio/static/css/main.a210350c.css",
+    "main.js": "/will-riffe-portfolio/static/js/main.3702762e.js",
     "static/js/787.1bc61d5c.chunk.js": "/will-riffe-portfolio/static/js/787.1bc61d5c.chunk.js",
-    "static/media/Sustain-A-Plate.png": "/will-riffe-portfolio/static/media/Sustain-A-Plate.0fbd54206a96a76aabd4.png",
+    "static/media/Sustain-a-Plate-Page.png": "/will-riffe-portfolio/static/media/Sustain-a-Plate-Page.d903b54b8e6d7b8b2288.png",
     "static/media/EventScout.png": "/will-riffe-portfolio/static/media/EventScout.dc004ae45292db0752a3.png",
     "static/media/Will Riffe.jpeg": "/will-riffe-portfolio/static/media/Will Riffe.5c180faa5635de49863c.jpeg",
     "static/media/permutater.png": "/will-riffe-portfolio/static/media/permutater.5614a9c6ecccdeadbd1a.png",
     "static/media/Resume Will Riffe 8.2.2024-1.jpg": "/will-riffe-portfolio/static/media/Resume Will Riffe 8.2.2024-1.22433003d9c42b5a3ee4.jpg",
     "static/media/Resume Will Riffe 8.2.2024-2.jpg": "/will-riffe-portfolio/static/media/Resume Will Riffe 8.2.2024-2.e54544484f2ba13e2624.jpg",
     "index.html": "/will-riffe-portfolio/index.html",
-    "main.bef1d5b8.css.map": "/will-riffe-portfolio/static/css/main.bef1d5b8.css.map",
-    "main.adf8daf0.js.map": "/will-riffe-portfolio/static/js/main.adf8daf0.js.map",
+    "main.a210350c.css.map": "/will-riffe-portfolio/static/css/main.a210350c.css.map",
+    "main.3702762e.js.map": "/will-riffe-portfolio/static/js/main.3702762e.js.map",
     "787.1bc61d5c.chunk.js.map": "/will-riffe-portfolio/static/js/787.1bc61d5c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.bef1d5b8.css",
-    "static/js/main.adf8daf0.js"
+    "static/css/main.a210350c.css",
+    "static/js/main.3702762e.js"
   ]
 }
