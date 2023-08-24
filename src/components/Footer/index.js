@@ -8,11 +8,11 @@ import LinkedInIcon from '@mui/icons-material/LinkedIn';
 function Footer() {
   const location = useLocation();
   const noFooter = location.pathname === "/";
-  /*
+  
   if (noFooter) {
     return null; // doesn't render footer on home page
   }
-  */
+  
   return (
     <div className="footer">
       <div className="footer-content">
