@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/home/static/css/main.30f14bea.css",
-    "main.js": "/home/static/js/main.d453028b.js",
-    "static/js/787.1bc61d5c.chunk.js": "/home/static/js/787.1bc61d5c.chunk.js",
-    "static/media/Sustain-a-Plate-Page.png": "/home/static/media/Sustain-a-Plate-Page.d903b54b8e6d7b8b2288.png",
-    "static/media/EventScout.png": "/home/static/media/EventScout.dc004ae45292db0752a3.png",
-    "static/media/Will Riffe.jpeg": "/home/static/media/Will Riffe.5c180faa5635de49863c.jpeg",
-    "static/media/permutater.png": "/home/static/media/permutater.5614a9c6ecccdeadbd1a.png",
-    "static/media/Resume Will Riffe 8.2.2024-1.jpg": "/home/static/media/Resume Will Riffe 8.2.2024-1.22433003d9c42b5a3ee4.jpg",
-    "static/media/Resume Will Riffe 8.2.2024-2.jpg": "/home/static/media/Resume Will Riffe 8.2.2024-2.e54544484f2ba13e2624.jpg",
-    "static/media/WillsIcon.png": "/home/static/media/WillsIcon.a51b12b05d7ea2e38fc2.png",
-    "index.html": "/home/index.html",
-    "main.30f14bea.css.map": "/home/static/css/main.30f14bea.css.map",
-    "main.d453028b.js.map": "/home/static/js/main.d453028b.js.map",
-    "787.1bc61d5c.chunk.js.map": "/home/static/js/787.1bc61d5c.chunk.js.map"
+    "main.css": "/static/css/main.30f14bea.css",
+    "main.js": "/static/js/main.44e047da.js",
+    "static/js/787.1bc61d5c.chunk.js": "/static/js/787.1bc61d5c.chunk.js",
+    "static/media/Sustain-a-Plate-Page.png": "/static/media/Sustain-a-Plate-Page.d903b54b8e6d7b8b2288.png",
+    "static/media/EventScout.png": "/static/media/EventScout.dc004ae45292db0752a3.png",
+    "static/media/Will Riffe.jpeg": "/static/media/Will Riffe.5c180faa5635de49863c.jpeg",
+    "static/media/permutater.png": "/static/media/permutater.5614a9c6ecccdeadbd1a.png",
+    "static/media/Resume Will Riffe 8.2.2024-1.jpg": "/static/media/Resume Will Riffe 8.2.2024-1.22433003d9c42b5a3ee4.jpg",
+    "static/media/Resume Will Riffe 8.2.2024-2.jpg": "/static/media/Resume Will Riffe 8.2.2024-2.e54544484f2ba13e2624.jpg",
+    "static/media/WillsIcon.png": "/static/media/WillsIcon.a51b12b05d7ea2e38fc2.png",
+    "index.html": "/index.html",
+    "main.30f14bea.css.map": "/static/css/main.30f14bea.css.map",
+    "main.44e047da.js.map": "/static/js/main.44e047da.js.map",
+    "787.1bc61d5c.chunk.js.map": "/static/js/787.1bc61d5c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.30f14bea.css",
-    "static/js/main.d453028b.js"
+    "static/js/main.44e047da.js"
   ]
 }
