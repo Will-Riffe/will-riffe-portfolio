@@ -6,14 +6,12 @@ import Home from "./pages/Home";
 function App() {
   return (
     <div className="pageTheme crt">
-      <div className="scan"></div>
       <Router>
-        <Navbar />
         <Routes>
           <Route path="/home" element={<Home />} />
         </Routes>
-        <Footer />
       </Router>
+      <div className="scan"></div>
     </div>
   );
 }

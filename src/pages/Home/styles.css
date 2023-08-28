@@ -1,0 +1,38 @@
+header.main {
+    display:flex;
+    justify-content:start;
+    margin-top: 0;
+    top:0;
+    bottom:0;
+    right:0;
+    left:0;
+}
+
+h1 {
+    margin: 0;
+
+}
+
+p{
+    margin: 20px 3px 0;
+}
+
+body {
+    top:0;
+    bottom:0;
+    right:0;
+    left:0;
+    height:98%;
+}
+/* Sorry for the goofy names, I'll either fix or embrace them later */
+main {
+    border-style: solid none none solid ;
+    border-radius: 2%;
+    border-width: 2px;
+    border-color: var(--textc);
+    box-shadow: -4px -4px 3px var(--glow);
+    padding: 2%;
+    margin-top:3px;
+    height: 89vh;
+}
+
