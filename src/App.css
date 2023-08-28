@@ -5,7 +5,7 @@
   --scan-inner: #00ff55;
   --border-color: rgb(0, 143, 29);
   --textc: rgb(213, 153, 1);
-  --glow: #fdf93f;
+  --glow: #ffbf00;
   --font-size-h1: 30pt;
   --font-size-h2: 20pt;
   --font-size-button: 16pt;
@@ -17,7 +17,6 @@
 * {
   box-sizing: border-box;
   color: var(--textc);
-  text-shadow: 0 0 2px var(--glow);
 }
 
 .pageTheme {
@@ -131,7 +130,7 @@
   opacity: 0.9;
   z-index: 2;
   pointer-events: none;
-  animation: flicker 0.1s infinite;
+  animation: flicker 0.015s infinite;
 }
 
 @keyframes scan {
