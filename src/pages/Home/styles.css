@@ -3,6 +3,7 @@
   --g2: 0 0 1.25px var(--glow);
   --bsg: -4px -4px 3.5px var(--glow);
   --bsg2: 4px 4px 3.5px var(--glow);
+  --clip-top-left: polygon(-50% -50%, 100% 0, 100% 100%, 0% 100%);
 }
 
 @keyframes flicker1 {
@@ -185,7 +186,7 @@
     box-shadow: var(--bsg);
   }
   5% {
-    opacity: 0.5;
+    opacity: 0.85;
     box-shadow: var(--bsg);
   }
   10% {
@@ -193,7 +194,7 @@
     box-shadow: var(--bsg);
   }
   15% {
-    opacity: 0.65;
+    opacity: 0.9;
     box-shadow: var(--bsg);
   }
   20% {
@@ -205,23 +206,23 @@
     box-shadow: var(--bsg);
   }
   30% {
-    opacity: 0.75;
-    box-shadow: var(--bsg);
-  }
-  35% {
     opacity: 0.95;
     box-shadow: var(--bsg);
   }
+  35% {
+    opacity: 1;
+    box-shadow: var(--bsg);
+  }
   40% {
-    opacity: 0.5;
+    opacity: 0.9;
     box-shadow: var(--bsg);
   }
   45% {
-    opacity: 0.75;
+    opacity: 0.85;
     box-shadow: var(--bsg);
   }
   50% {
-    opacity: 1;
+    opacity: 0.9;
     box-shadow: var(--bsg);
   }
   55% {
@@ -233,31 +234,31 @@
     box-shadow: var(--bsg);
   }
   65% {
-    opacity: 0.65;
+    opacity: 1;
     box-shadow: var(--bsg);
   }
   70% {
-    opacity: 0.85;
+    opacity: 0.95;
     box-shadow: var(--bsg);
   }
   75% {
-    opacity: 0.8;
+    opacity: 0.6;
     box-shadow: var(--bsg);
   }
   80% {
-    opacity: 0.55;
-    box-shadow: var(--bsg);
-  }
-  85% {
     opacity: 0.85;
     box-shadow: var(--bsg);
   }
-  90% {
+  85% {
     opacity: 0.9;
     box-shadow: var(--bsg);
   }
-  95% {
+  90% {
     opacity: 0.95;
+    box-shadow: var(--bsg);
+  }
+  95% {
+    opacity: 0.975;
     box-shadow: var(--bsg);
   }
   100% {
@@ -353,10 +354,6 @@
   }
 }
 
-.plain {
-  animation: none;
-}
-
 header.main {
   display: flex;
   justify-content: start;
@@ -391,7 +388,7 @@ body {
 }
 
 button.active {
-    animation: flicker4 15s infinite;
+  animation: flicker4 15s infinite;
 }
 
 main {
@@ -403,11 +400,29 @@ main {
   padding: 2%;
   margin-top: 3px;
   height: 92vh;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.show-border {
+  border-style: dashed;
+}
+
+.reactor {
+  height: 90%;
+  width: 100%;
+}
+
+.plain {
+  animation: none;
 }
 
 .sagely {
-    display: flex;
-    justify-content:space-around;
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  height: 10%;
 }
 
 .main-btn {
@@ -436,12 +451,6 @@ main {
   vertical-align: middle;
   white-space: nowrap;
 }
-
-.sagely {
-    display: flex;
-    justify-content:space-around;
-}
-
 
 .main-btn:focus {
   text-decoration: none;
@@ -474,9 +483,15 @@ main {
 }
 
 @media screen and (min-width: 1024px) {
-    
+  .reactor {
+    height:100%;
+    width: 82%;
+}
+
   .sagely {
     flex-direction: column;
+    width: 245px;
+    height: 40vh;
   }
 
   h4 {
@@ -491,6 +506,6 @@ main {
 
   .main-btn {
     width: 200px;
-    height: 60px;  
+    height: 60px;
   }
 }

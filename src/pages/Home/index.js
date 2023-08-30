@@ -22,19 +22,25 @@ function Home(props) {
         <p>Software Developer</p>
       </header>
       <main>
-        <nav className="plain sagely">
+
+        <nav className="plain sagely show-border">
+
           {buttonData.map((button) => (
             <button
               key={button.id}
               className={`main-btn ${
                 activeButton === button.id ? "active" : ""
-              }`}
+                }`}
               onClick={() => handleButtonClick(button.id)}
             >
               <h4>{button.label}</h4>
             </button>
           ))}
+
         </nav>
+        <section className="show-border reactor">
+
+        </section>
       </main>
     </body>
   );

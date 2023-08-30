@@ -17,6 +17,7 @@
 * {
   box-sizing: border-box;
   color: var(--textc);
+  font-family:monospace;
 }
 
 .pageTheme {
