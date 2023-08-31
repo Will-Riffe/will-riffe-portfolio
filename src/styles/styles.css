@@ -37,6 +37,9 @@ body {
   right: 0;
   left: 0;
   height: 98%;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
 }
 
 button.active {
@@ -57,25 +60,11 @@ main {
   flex-wrap: wrap;
 }
 
-.show-border {
-  border-style: dashed;
-}
-
 .main-content {
   height: 90%;
   width: 100%;
 }
 
-.plain {
-  animation: none;
-}
-
-.sagely {
-  display: flex;
-  justify-content: space-around;
-  width: 100%;
-  height: 10%;
-}
 
 .main-btn {
   appearance: button;
@@ -122,9 +111,7 @@ main {
   transform: translate(2px, 2px);
 }
 
-nav section.expressive-content{
-display:none;
-}
+
 
 /* Just some boilerplate responsive css */
 @media screen and (min-width: 768px) {
@@ -143,22 +130,6 @@ display:none;
     height:100%;
     width: 82%;
 }
-
-  .sagely {
-    flex-direction: column;
-    width:15vw;
-    height: 100%;
-  }
-
-  nav section.expressive-content{
-    height:50%;
-    width:100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-
-
 
   h4 {
     animation: flicker2 20s infinite;
