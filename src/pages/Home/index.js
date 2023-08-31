@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import "./animations.css";
 import "./styles.css";
 
 function Home(props) {
@@ -37,8 +38,12 @@ function Home(props) {
             </button>
           ))}
 
+          <section className="show-border expressive-content">
+                <h1>CONTENT COMING SOON</h1>
+          </section>
+        
         </nav>
-        <section className="show-border reactor">
+        <section className="show-border main-content">
 
         </section>
       </main>
