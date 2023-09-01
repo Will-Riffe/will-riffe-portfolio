@@ -10,6 +10,7 @@ header.main {
   display: flex;
   justify-content: start;
   margin-top: 0;
+  margin-left: 10px;
   top: 0;
   bottom: 0;
   right: 0;
@@ -36,7 +37,7 @@ body {
   bottom: 0;
   right: 0;
   left: 0;
-  height: 98%;
+  height: 99%;
   margin: 0;
   padding: 0;
   overflow: hidden;
@@ -54,7 +55,8 @@ main {
   animation: flicker3 15s infinite;
   padding: 2%;
   margin-top: 3px;
-  height: 92vh;
+  margin-left: 10px;
+  height: 95vh;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
