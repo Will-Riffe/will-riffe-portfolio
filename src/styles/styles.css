@@ -10,6 +10,7 @@ header.main {
   display: flex;
   justify-content: start;
   margin-top: 0;
+  margin-left: 10px;
   top: 0;
   bottom: 0;
   right: 0;
@@ -37,9 +38,7 @@ body {
   right: 0;
   left: 0;
   height: 99%;
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
+
 }
 
 button.active {
@@ -54,6 +53,7 @@ main {
   animation: flicker3 15s infinite;
   padding: 2%;
   margin-top: 3px;
+  margin-left: 10px;
   height: 95vh;
   display: flex;
   flex-direction: row;
@@ -112,17 +112,39 @@ main {
   transform: translate(2px, 2px);
 }
 
+.content-header {
+  color:var(--background-color);
+  background-color:var(--glow);
+  box-shadow: 0 0 5px var(--glow);
+  width:95%;
+  height:30px;
+  margin: 10px auto 0 auto;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  font-size:xx-large;
+  font-weight:bolder;
+  text-shadow: 0 0 3px var(--background-color);
+}
 
 
-/* Just some boilerplate responsive css */
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 500px) {
+
   main {
     border-style: solid none none solid;
     animation: flicker3 10s infinite;
     margin: 0 3%;
   }
+
   header.main {
     margin: 0 3% 2px;
+  }
+
+  .main-btn {
+    width: 17vw;
+    height: 60px;
+    margin: 0.5rem 1vw 0.5rem 0vw;
+    font-size:large;
   }
 }
 
@@ -149,18 +171,5 @@ main {
 
   }
 
-  .content-header {
-    color:var(--background-color);
-    background-color:var(--glow);
-    box-shadow: 0 0 5px var(--glow);
-    width:95%;
-    height:30px;
-    margin: 10px auto 0 auto;
-    display:flex;
-    justify-content:center;
-    align-items:center;
-    font-size:xx-large;
-    font-weight:bolder;
-    text-shadow: 0 0 3px var(--background-color);
-  }
+
 }
