@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/will-riffe-portfolio//about/static/css/main.04e9a9ff.css",
-    "main.js": "/will-riffe-portfolio//about/static/js/main.2d27f473.js",
-    "static/js/787.1bc61d5c.chunk.js": "/will-riffe-portfolio//about/static/js/787.1bc61d5c.chunk.js",
-    "index.html": "/will-riffe-portfolio//about/index.html",
-    "main.04e9a9ff.css.map": "/will-riffe-portfolio//about/static/css/main.04e9a9ff.css.map",
-    "main.2d27f473.js.map": "/will-riffe-portfolio//about/static/js/main.2d27f473.js.map",
-    "787.1bc61d5c.chunk.js.map": "/will-riffe-portfolio//about/static/js/787.1bc61d5c.chunk.js.map"
+    "main.css": "/will-riffe-portfolio/static/css/main.04e9a9ff.css",
+    "main.js": "/will-riffe-portfolio/static/js/main.0e149d8b.js",
+    "static/js/787.1bc61d5c.chunk.js": "/will-riffe-portfolio/static/js/787.1bc61d5c.chunk.js",
+    "index.html": "/will-riffe-portfolio/index.html",
+    "main.04e9a9ff.css.map": "/will-riffe-portfolio/static/css/main.04e9a9ff.css.map",
+    "main.0e149d8b.js.map": "/will-riffe-portfolio/static/js/main.0e149d8b.js.map",
+    "787.1bc61d5c.chunk.js.map": "/will-riffe-portfolio/static/js/787.1bc61d5c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.04e9a9ff.css",
-    "static/js/main.2d27f473.js"
+    "static/js/main.0e149d8b.js"
   ]
 }

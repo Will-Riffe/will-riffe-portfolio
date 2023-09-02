@@ -1,5 +1,5 @@
 import React, { useRef, useEffect } from "react";
-import { BrowserRouter as Router, Routes, Route, Outlet } from "react-router-dom";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import "./App.css";
 import "./styles/animations.css";
 import "./styles/styles.css";
@@ -17,7 +17,7 @@ function App() {
         <p>Software Developer</p>
       </header>
       <main>
-        <Router>
+        <Router basename="/will-riffe-portfolio">
           <NavBar />
           <Routes>
             <Route path="/" element={<About />} />
