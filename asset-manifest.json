@@ -1,22 +1,15 @@
 {
   "files": {
-    "main.css": "/www.will-riffe.com/home/static/css/main.30f14bea.css",
-    "main.js": "/www.will-riffe.com/home/static/js/main.192a62f1.js",
-    "static/js/787.1bc61d5c.chunk.js": "/www.will-riffe.com/home/static/js/787.1bc61d5c.chunk.js",
-    "static/media/Sustain-a-Plate-Page.png": "/www.will-riffe.com/home/static/media/Sustain-a-Plate-Page.d903b54b8e6d7b8b2288.png",
-    "static/media/EventScout.png": "/www.will-riffe.com/home/static/media/EventScout.dc004ae45292db0752a3.png",
-    "static/media/Will Riffe.jpeg": "/www.will-riffe.com/home/static/media/Will Riffe.5c180faa5635de49863c.jpeg",
-    "static/media/permutater.png": "/www.will-riffe.com/home/static/media/permutater.5614a9c6ecccdeadbd1a.png",
-    "static/media/Resume Will Riffe 8.2.2024-1.jpg": "/www.will-riffe.com/home/static/media/Resume Will Riffe 8.2.2024-1.22433003d9c42b5a3ee4.jpg",
-    "static/media/Resume Will Riffe 8.2.2024-2.jpg": "/www.will-riffe.com/home/static/media/Resume Will Riffe 8.2.2024-2.e54544484f2ba13e2624.jpg",
-    "static/media/WillsIcon.png": "/www.will-riffe.com/home/static/media/WillsIcon.a51b12b05d7ea2e38fc2.png",
-    "index.html": "/www.will-riffe.com/home/index.html",
-    "main.30f14bea.css.map": "/www.will-riffe.com/home/static/css/main.30f14bea.css.map",
-    "main.192a62f1.js.map": "/www.will-riffe.com/home/static/js/main.192a62f1.js.map",
-    "787.1bc61d5c.chunk.js.map": "/www.will-riffe.com/home/static/js/787.1bc61d5c.chunk.js.map"
+    "main.css": "/about/static/css/main.04e9a9ff.css",
+    "main.js": "/about/static/js/main.3875d477.js",
+    "static/js/787.1bc61d5c.chunk.js": "/about/static/js/787.1bc61d5c.chunk.js",
+    "index.html": "/about/index.html",
+    "main.04e9a9ff.css.map": "/about/static/css/main.04e9a9ff.css.map",
+    "main.3875d477.js.map": "/about/static/js/main.3875d477.js.map",
+    "787.1bc61d5c.chunk.js.map": "/about/static/js/787.1bc61d5c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.30f14bea.css",
-    "static/js/main.192a62f1.js"
+    "static/css/main.04e9a9ff.css",
+    "static/js/main.3875d477.js"
   ]
 }
