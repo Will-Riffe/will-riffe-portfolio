@@ -1,43 +1,47 @@
-import React, { useState } from "react";
-// import PropTypes from "prop-types";
+import React, { useState, useEffect } from "react";
+import { Link, useNavigate, useLocation } from "react-router-dom";
 import "./navBar.css";
 
 function NavBar(props) {
+  const navigate = useNavigate();
+  const location = useLocation();
 
-const buttonData = [
-    { id: "about", label: "ABOUT" },
-    { id: "portfolio", label: "PORTFOLIO" },
-    { id: "contact", label: "CONTACT" },
-    { id: "resume", label: "RESUME" },
+  const buttonData = [
+    { id: "about", label: "ABOUT", to: "/about" },
+    { id: "portfolio", label: "PORTFOLIO", to: "/portfolio" },
+    { id: "contact", label: "CONTACT", to: "/contact" },
+    { id: "resume", label: "RESUME", to: "/resume" },
   ];
 
   const [activeButton, setActiveButton] = useState(null);
 
-  const handleButtonClick = (buttonId) => {
-    setActiveButton(buttonId);
-  };
-
-return (
-<nav  className="plain navContainer show-border">
-
-{buttonData.map((button) => (
-  <button
-    key={button.id}
-    className={`main-btn ${
-      activeButton === button.id ? "active" : ""
-      }`}
-    onClick={() => handleButtonClick(button.id)}
-  >
-    <h4>{button.label}</h4>
-  </button>
-))}
-
-<section className="show-border expressive-content">
-      <h1>CONTENT COMING SOON</h1>
-</section>
-
-</nav>
-);
+  useEffect(() => {
+    const currentButton = buttonData.find((button) => location.pathname === button.to);
+    if (currentButton) {
+      setActiveButton(currentButton.id);
+    } else {
+      setActiveButton(null);
     }
+  }, [location.pathname]);
+
+
+  return (
+    <nav className="plain navContainer show-border">
+      {buttonData.map((button) => (
+        <button
+          key={button.id}
+          className={`main-btn ${activeButton === button.id ? "active" : ""}`}
+          onClick={() => navigate(button.to)}
+        >
+          <h4>{button.label}</h4>
+        </button>
+      ))}
+
+      <section className="show-border expressive-content">
+        <h1>CONTENT COMING SOON</h1>
+      </section>
+    </nav>
+  );
+}
 
 export default NavBar;
