@@ -7,7 +7,7 @@ function NavBar(props) {
   const location = useLocation();
 
   const buttonData = [
-    { id: "about", label: "ABOUT", to: "/about" },
+    { id: "about", label: "ABOUT", to: "/" },
     { id: "portfolio", label: "PORTFOLIO", to: "/portfolio" },
     { id: "contact", label: "CONTACT", to: "/contact" },
     { id: "resume", label: "RESUME", to: "/resume" },
