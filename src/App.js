@@ -17,7 +17,7 @@ function App() {
         <p>Software Developer</p>
       </header>
       <main>
-        <Router basename="/will-riffe-portfolio">
+        <Router>
           <NavBar />
           <Routes>
             <Route path="/" element={<About />} />

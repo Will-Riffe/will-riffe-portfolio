@@ -20,7 +20,7 @@ function NavBar(props) {
     if (currentButton) {
       setActiveButton(currentButton.id);
     } else {
-      setActiveButton(null);
+      setActiveButton('about');
     }
   }, [location.pathname]);
 
@@ -31,7 +31,7 @@ function NavBar(props) {
         <button
           key={button.id}
           className={`main-btn ${activeButton === button.id ? "active" : ""}`}
-          onClick={() => navigate(button.to)}
+          data-route={button.to}
         >
           <h4>{button.label}</h4>
         </button>

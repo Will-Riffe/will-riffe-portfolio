@@ -1,9 +1,10 @@
-import React from 'react'
+import React from "react";
 
 function About(props) {
   return (
-    <section className="show-border main-content">
-    <div className="content-header">About</div>
-</section>  )
+    <header className="show-border main-content">
+      <div className="content-header">About</div>
+    </header>
+  );
 }
 export default About;
