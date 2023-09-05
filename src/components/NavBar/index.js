@@ -21,6 +21,7 @@ function NavBar(props) {
       setActiveButton(currentButton.id);
     } else {
       setActiveButton('about');
+      navigate('/');
     }
   }, [location.pathname]);
 
