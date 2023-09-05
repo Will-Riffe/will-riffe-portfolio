@@ -1,3 +1,12 @@
+:root {
+  --g: 0 0 4px var(--glow);
+  --g2: 0 0 1.25px var(--glow);
+  --bsg: -4px -4px 3.5px var(--glow);
+  --bsg1: 0 0 10px 1px var(--glow);
+  --bsg2: 4px 4px 3.5px var(--glow);
+  --clip-top-left: polygon(-50% -50%, 100% 0, 100% 100%, 0% 100%);
+}
+
 @keyframes flicker1 {
     0% {
       opacity: 1;
@@ -343,5 +352,92 @@
     100% {
       opacity: 1;
       box-shadow: var(--bsg2);
+    }
+  }
+
+  @keyframes flicker5 {
+    0% {
+      opacity: 1;
+      box-shadow: var(--bsg1);
+    }
+    5% {
+      opacity: 0.95;
+      box-shadow: var(--bsg1);
+    }
+    10% {
+      opacity: 0.9;
+      box-shadow: var(--bsg1);
+    }
+    15% {
+      opacity: 0.85;
+      box-shadow: var(--bsg1);
+    }
+    20% {
+      opacity: 0.8;
+      box-shadow: var(--bsg1);
+    }
+    25% {
+      opacity: 0.85;
+      box-shadow: var(--bsg1);
+    }
+    30% {
+      opacity: 0.9;
+      box-shadow: var(--bsg1);
+    }
+    35% {
+      opacity: 0.95;
+      box-shadow: var(--bsg1);
+    }
+    40% {
+      opacity: 1;
+      box-shadow: var(--bsg1);
+    }
+    45% {
+      opacity: 0.95;
+      box-shadow: var(--bsg1);
+    }
+    50% {
+      opacity: 0.9;
+      box-shadow: var(--bsg1);
+    }
+    55% {
+      opacity: 0.85;
+      box-shadow: var(--bsg1);
+    }
+    60% {
+      opacity: 0.8;
+      box-shadow: var(--bsg1);
+    }
+    65% {
+      opacity: 0.85;
+      box-shadow: var(--bsg1);
+    }
+    70% {
+      opacity: 0.9;
+      box-shadow: var(--bsg1);
+    }
+    75% {
+      opacity: 0.95;
+      box-shadow: var(--bsg1);
+    }
+    80% {
+      opacity: 1;
+      box-shadow: var(--bsg1);
+    }
+    85% {
+      opacity: 0.95;
+      box-shadow: var(--bsg1);
+    }
+    90% {
+      opacity: 0.9;
+      box-shadow: var(--bsg1);
+    }
+    95% {
+      opacity: 0.95;
+      box-shadow: var(--bsg1);
+    }
+    100% {
+      opacity: 1;
+      box-shadow: var(--bsg1);
     }
   }

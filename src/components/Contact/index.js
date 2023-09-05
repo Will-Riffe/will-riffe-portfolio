@@ -1,9 +1,12 @@
-import React from 'react'
+import React from "react";
 
 function Contact(props) {
   return (
     <section className="show-border main-content">
-    <div className="content-header">Contact</div>
-</section>  )
+      <header className="show-border ">
+        <div className="content-header">Contact</div>
+      </header>
+    </section>
+  );
 }
 export default Contact;

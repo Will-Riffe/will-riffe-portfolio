@@ -31,7 +31,7 @@ function NavBar(props) {
         <button
           key={button.id}
           className={`main-btn ${activeButton === button.id ? "active" : ""}`}
-          data-route={button.to}
+          onClick={() => navigate(button.to)}
         >
           <h4>{button.label}</h4>
         </button>
