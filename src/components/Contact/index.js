@@ -1,4 +1,7 @@
 import React from "react";
+import ContactForm from "./contactForm";
+import Upcoming from "./upcoming";
+import "./contact.css";
 
 function Contact(props) {
   return (
@@ -6,6 +9,10 @@ function Contact(props) {
       <header className="show-border ">
         <div className="content-header">Contact</div>
       </header>
+      <div className="alternate-order">
+        <ContactForm />
+        <Upcoming />
+      </div>
     </section>
   );
 }
