@@ -5,6 +5,12 @@
     height: auto;
   }
 
+.navSection {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
   nav section.expressive-content{
     display:none;
     }
@@ -20,7 +26,7 @@
     }
   
     nav section.expressive-content{
-      height:50%;
+      height:49%;
       width:100%;
       display: flex;
       justify-content: center;

@@ -16,27 +16,30 @@ function NavBar(props) {
   const [activeButton, setActiveButton] = useState(null);
 
   useEffect(() => {
-    const currentButton = buttonData.find((button) => location.pathname === button.to);
+    const currentButton = buttonData.find(
+      (button) => location.pathname === button.to
+    );
     if (currentButton) {
       setActiveButton(currentButton.id);
     } else {
-      setActiveButton('about');
-      navigate('/');
+      setActiveButton("about");
+      navigate("/");
     }
   }, [location.pathname]);
 
-
   return (
     <nav className="plain navContainer show-border">
-      {buttonData.map((button) => (
-        <button
-          key={button.id}
-          className={`main-btn ${activeButton === button.id ? "active" : ""}`}
-          onClick={() => navigate(button.to)}
-        >
-          <h4>{button.label}</h4>
-        </button>
-      ))}
+      <section className="navSection">
+        {buttonData.map((button) => (
+          <button
+            key={button.id}
+            className={`main-btn ${activeButton === button.id ? "active" : ""}`}
+            onClick={() => navigate(button.to)}
+          >
+            <h4>{button.label}</h4>
+          </button>
+        ))}
+      </section>
 
       <section className="show-border expressive-content">
         <h1>CONTENT COMING SOON</h1>

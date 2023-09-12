@@ -3,6 +3,10 @@ div.center {
   justify-content: center;
 }
 
+footer {
+    width:100%;
+}
+
 .entry-div {
   width: 90%;
   height: auto;

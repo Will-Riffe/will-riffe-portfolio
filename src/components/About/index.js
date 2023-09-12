@@ -8,11 +8,11 @@ function About(props) {
       </header>
       <article>
         <nav className="article-nav show-border">
-          <button className="article-crumb ">
+          <button className="article-tab">
             <h4>General</h4>
           </button>
           <h4 className="divider">|</h4>
-          <button className="article-crumb">
+          <button className="article-tab">
             <h4>Blog</h4>
           </button>
         </nav>

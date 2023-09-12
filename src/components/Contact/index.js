@@ -1,6 +1,7 @@
 import React from "react";
 import ContactForm from "./contactForm";
 import Upcoming from "./upcoming";
+import SocialFooter from "./socialFooter";
 import "./contact.css";
 
 function Contact(props) {
@@ -12,6 +13,9 @@ function Contact(props) {
       <div className="alternate-order">
         <ContactForm />
         <Upcoming />
+      </div>
+      <div>
+        <SocialFooter />
       </div>
     </section>
   );

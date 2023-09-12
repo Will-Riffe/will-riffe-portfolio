@@ -32,6 +32,7 @@ body {
 
 article nav.article-nav {
   display: flex;
+  overflow: hidden;
   box-shadow: 0 -5px 5px var(--textc);
   width: 94%;
   height: 30px;
@@ -39,15 +40,32 @@ article nav.article-nav {
   text-align: center;
 }
 
-article nav button.article-crumb {
+article nav button.article-tab {
   background-color: transparent;
   border: none;
   padding-bottom: 0px;
-  margin: 0px 0px 0px 0px;
+  margin: auto -6px 5px -6px;
   width: 45vw;
   align-self: center;
   justify-content:end;
   height: 25px;
+}
+
+article nav button.article-tab-active {
+  background-color: var(--textc);
+  border: none;
+  margin: auto -6px 5px -6px;
+  width: 45vw;
+  align-self: center;
+  justify-content:end;
+  height: auto;
+  box-shadow: 0 0 2px 0.5px var(--glow);
+}
+
+article nav button.article-tab-active h4 {
+  color: var(--background-color);
+  text-shadow: 2px 2px 4px #000;
+  width:95%;
 }
 
 article nav button h4.active-crumb {
@@ -73,7 +91,8 @@ h4 {
 }
 
 h4.divider {
-  font-size:xx-large;
+  font-size:2.7em;
+  margin: -5px -0.9px 0px -0.9px;
 }
 
 .hideOnSmall {
@@ -129,7 +148,7 @@ section {
   -webkit-user-select: none;
   vertical-align: middle;
   white-space: nowrap;
-  
+  text-shadow: 0 0 3px var(--glow);
 }
 
 .main-btn:focus {
@@ -206,7 +225,8 @@ section {
   }
 
   h4.divider {
-    margin: 0px;
+    font-size:xx-large;
+    margin: -5px 0px 0px 0px;
     padding: 0px;
   }
 
