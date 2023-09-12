@@ -58,7 +58,7 @@ nav button.article-tab-active {
   width: 45vw;
   align-self: center;
   justify-content:end;
-  height: auto;
+  height: 100%;
   box-shadow: 0 0 2px 0.5px var(--glow);
 }
 

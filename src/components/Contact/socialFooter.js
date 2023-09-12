@@ -3,30 +3,42 @@ import {
   faLinkedin,
   faGithub,
   faSlack,
-  faDiscord
+  faDiscord,
 } from "@fortawesome/free-brands-svg-icons";
 
 function SocialFooter() {
   return (
-    <footer>
+    <footer className="show-border">
       <h1>Find me on these platforms:</h1>
-      <div>
-        <FontAwesomeIcon
-          icon={faLinkedin}
-          style={{ color: "#d59901", height: "5em" }}
-        />
-        <FontAwesomeIcon
-          icon={faGithub}
-          style={{ color: "#d59901", height: "5em" }}
-        />
-        <FontAwesomeIcon
-          icon={faSlack}
-          style={{ color: "#d59901", height: "5em" }}
-        />
-        <FontAwesomeIcon
-          icon={faDiscord}
-          style={{ color: "#d59901", height: "5em"  }}
-        />
+      <div className="center">
+        <a
+          href="https://www.linkedin.com/in/w-r"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <FontAwesomeIcon icon={faLinkedin} className="social-icons" />
+        </a>
+        <a
+          href="https://github.com/Will-Riffe"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <FontAwesomeIcon icon={faGithub} className="social-icons" />
+        </a>
+        <a
+          href="https://contactmeworld.slack.com/team/U05S2NVQ8BC"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <FontAwesomeIcon icon={faSlack} className="social-icons" />
+        </a>
+        <a
+          href="https://www.discordapp.com/users/444634944598441987"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <FontAwesomeIcon icon={faDiscord} className="social-icons" />
+        </a>
       </div>
     </footer>
   );
