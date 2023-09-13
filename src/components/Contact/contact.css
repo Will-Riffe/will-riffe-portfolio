@@ -1,3 +1,8 @@
+.scroll {
+  overflow-y: scroll;
+  scroll-behavior: smooth;
+}
+
 div.center {
   display: flex;
   justify-content: center;
@@ -6,13 +11,13 @@ div.center {
 
 footer {
   width: 100%;
-  margin: 40px 0 0 0;
+  margin: 15px 0 0 0;
 }
 
 .social-icons {
   color: #d59901;
-  height: 5em;
-  margin: 20px 10px 0 10px;
+  height: 3em;
+  margin: 15px 10px 0 10px;
 }
 
 .entry-div {
@@ -48,7 +53,7 @@ footer {
 @media screen and (min-width: 1024px) {
   footer {
     width: 50%;
-    margin: 40px 0 0 0;
+    margin: 60px 0 0 0;
     flex-direction:column;
   }
 

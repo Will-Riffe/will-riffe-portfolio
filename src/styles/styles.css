@@ -33,7 +33,7 @@ body {
 nav.article-nav {
   display: flex;
   overflow: hidden;
-  box-shadow: 0 -5px 5px var(--textc);
+  animation: flicker6 20s infinite;
   width: 94%;
   height: 30px;
   margin: 6px auto auto auto;
@@ -44,7 +44,7 @@ nav button.article-tab {
   background-color: transparent;
   border: none;
   padding-bottom: 0px;
-  margin: auto -6px 5px -6px;
+  margin: auto -7px 5px -7px;
   width: 45vw;
   align-self: center;
   justify-content:end;
@@ -54,12 +54,12 @@ nav button.article-tab {
 nav button.article-tab-active {
   background-color: var(--textc);
   border: none;
-  margin: auto -6px 5px -6px;
+  margin: auto -7px 5px -7px;
   width: 45vw;
   align-self: center;
   justify-content:end;
   height: 100%;
-  box-shadow: 0 0 2px 0.5px var(--glow);
+  border-radius: 2%;
 }
 
 nav button.article-tab-active h4 {

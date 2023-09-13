@@ -6,7 +6,7 @@ import "./contact.css";
 
 function Contact(props) {
   return (
-    <section className="show-border main-content">
+    <section className="show-border main-content scroll">
       <header className="show-border ">
         <div className="content-header">Contact</div>
       </header>
