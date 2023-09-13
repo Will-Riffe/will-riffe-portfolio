@@ -33,7 +33,7 @@ body {
 nav.article-nav {
   display: flex;
   overflow: hidden;
-  animation: flicker6 20s infinite;
+  animation: flicker6 30s infinite;
   width: 94%;
   height: 30px;
   margin: 6px auto auto auto;

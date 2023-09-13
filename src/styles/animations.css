@@ -449,15 +449,15 @@
       box-shadow: var(--bsg3);
     }
     5% {
-      opacity: 0.95;
+      opacity: 0.97.5;
       box-shadow: var(--bsg3);
     }
     10% {
-      opacity: 0.9;
+      opacity: 0.95;
       box-shadow: var(--bsg3);
     }
     15% {
-      opacity: 0.85;
+      opacity: 0.925;
       box-shadow: var(--bsg3);
     }
     20% {
@@ -465,15 +465,15 @@
       box-shadow: var(--bsg3);
     }
     25% {
-      opacity: 0.95;
+      opacity: 0.975;
       box-shadow: var(--bsg3);
     }
     30% {
-      opacity: 0.8;
+      opacity: 1;
       box-shadow: var(--bsg3);
     }
     35% {
-      opacity: 0.95;
+      opacity: 0.975;
       box-shadow: var(--bsg3);
     }
     40% {
@@ -481,19 +481,19 @@
       box-shadow: var(--bsg3);
     }
     45% {
-      opacity: 0.8;
+      opacity: 0.9;
       box-shadow: var(--bsg3);
     }
     50% {
-      opacity: 0.95;
+      opacity: 0.925;
       box-shadow: var(--bsg3);
     }
     55% {
-      opacity: 0.85;
+      opacity: 0.95;
       box-shadow: var(--bsg3);
     }
     60% {
-      opacity: 0.9;
+      opacity: 0.975;
       box-shadow: var(--bsg3);
     }
     65% {
@@ -505,7 +505,7 @@
       box-shadow: var(--bsg3);
     }
     75% {
-      opacity: 0.95;
+      opacity: 0.975;
       box-shadow: var(--bsg3);
     }
     80% {
@@ -513,15 +513,15 @@
       box-shadow: var(--bsg3);
     }
     85% {
-      opacity: 0.95;
+      opacity: 0.975;
       box-shadow: var(--bsg3);
     }
     90% {
-      opacity: 0.9;
+      opacity: 0.95;
       box-shadow: var(--bsg3);
     }
     95% {
-      opacity: 0.95;
+      opacity: 0.925;
       box-shadow: var(--bsg3);
     }
     100% {
