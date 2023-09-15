@@ -1,10 +1,10 @@
 import React from 'react'
 
-function FeaturedProjects(props) {
+function projectSelector(props) {
 
     <div>
         <h1>test for featured projects</h1>
     </div>
 
 }
-export default Portfolio;
+export default projectSelector;
