@@ -8,7 +8,7 @@ import {
 
 function SocialFooter() {
   return (
-    <footer className="show-border">
+    <footer>
       <h1>Find me on these platforms:</h1>
       <div className="center">
         <a

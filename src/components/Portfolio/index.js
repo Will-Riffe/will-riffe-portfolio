@@ -14,12 +14,12 @@ function Portfolio(props) {
   }
 
   return (
-    <section className="show-border main-content">
-      <header className="show-border">
+    <section className="main-content">
+      <header>
         <div className="content-header">Portfolio</div>
       </header>
       <article>
-        <nav className="article-nav show-border">
+        <nav className="article-nav">
           {tabs.map((tab, index) => (
             <React.Fragment key={tab.id}>
               {index !== 0 && <h4 className="divider">|</h4>}

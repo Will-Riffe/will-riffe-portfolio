@@ -1,3 +1,9 @@
+article {
+  height:75%;
+  width:97%;
+  margin: 2vh auto 0 auto;
+}
+
 main {
   border-style: solid solid solid solid;
   border-radius: 2%;
@@ -210,6 +216,16 @@ section {
 }
 
 @media screen and (min-width: 1024px) {
+  article {
+    border-style: none solid solid solid;
+    border-radius: 1%;
+    border-width: 1px;
+    border-color: var(--glow);
+    animation: flicker7 15s infinite;
+    height:90%;
+    width:97%;
+    margin: 2vh auto 0 3vw;
+  }
 
   nav.article-nav {
     margin: 20px auto auto auto;
@@ -222,7 +238,7 @@ section {
   }
 
   .content-header {
-    margin: 10px auto 10px auto;
+    margin: 10px auto 10px 4vw;
   }
 
   h4 {

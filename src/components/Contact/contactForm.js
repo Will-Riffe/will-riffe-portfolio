@@ -27,7 +27,7 @@ function ContactForm() {
   };
 
   return (
-    <section className="show-border contact-form makeMeToasty">
+    <section className="contact-form makeMeToasty">
       <h1>~ HMU ~</h1>
       <form onSubmit={handleSubmit}>
         <div className="entry-div">
@@ -56,7 +56,7 @@ function ContactForm() {
             required
           />
         </div>
-        <div className="entry-div show-border">
+        <div className="entry-div">
           <label htmlFor="message">Message:</label>
           <br />
           <textarea
@@ -68,7 +68,7 @@ function ContactForm() {
             required
           ></textarea>
         </div>
-        <div className="center show-border">
+        <div className="center">
           <button type="submit" className="main-btn">
             Send!
           </button>

@@ -28,7 +28,7 @@ function NavBar(props) {
   }, [location.pathname]);
 
   return (
-    <nav className="plain navContainer show-border">
+    <nav className="plain navContainer">
       <section className="navSection">
         {buttonData.map((button) => (
           <button
