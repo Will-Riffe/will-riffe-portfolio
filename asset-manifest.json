@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/will-riffe-portfolio/static/css/main.5114be97.css",
-    "main.js": "/will-riffe-portfolio/static/js/main.e2723f95.js",
+    "main.css": "/will-riffe-portfolio/static/css/main.15b9cf80.css",
+    "main.js": "/will-riffe-portfolio/static/js/main.9d5e04ec.js",
     "static/js/787.1bc61d5c.chunk.js": "/will-riffe-portfolio/static/js/787.1bc61d5c.chunk.js",
     "index.html": "/will-riffe-portfolio/index.html",
-    "main.5114be97.css.map": "/will-riffe-portfolio/static/css/main.5114be97.css.map",
-    "main.e2723f95.js.map": "/will-riffe-portfolio/static/js/main.e2723f95.js.map",
+    "main.15b9cf80.css.map": "/will-riffe-portfolio/static/css/main.15b9cf80.css.map",
+    "main.9d5e04ec.js.map": "/will-riffe-portfolio/static/js/main.9d5e04ec.js.map",
     "787.1bc61d5c.chunk.js.map": "/will-riffe-portfolio/static/js/787.1bc61d5c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.5114be97.css",
-    "static/js/main.e2723f95.js"
+    "static/css/main.15b9cf80.css",
+    "static/js/main.9d5e04ec.js"
   ]
 }
