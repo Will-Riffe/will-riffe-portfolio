@@ -5,11 +5,7 @@ function Portfolio(props) {
 
   const tabs = [
     { id: "featured", label: "Featured Projects", to: "featured-content" },
-    {
-      id: "professional",
-      label: "Professional Projects",
-      to: "professional-content",
-    },
+    { id: "professional", label: "Professional Projects", to: "professional-content" },
     { id: "school", label: "School Projects", to: "school-content" },
   ];
 
