@@ -4,6 +4,12 @@ article {
   margin: 2vh auto 0 auto;
 }
 
+div.general {
+  margin: 2vw;
+  padding: 2vw;
+  height: 85%;
+}
+
 main {
   border-style: solid solid solid solid;
   border-radius: 2%;

@@ -34,6 +34,7 @@ function About(props) {
             </React.Fragment>
           ))}
         </nav>
+      <General />
       </article>
     </section>
   );
