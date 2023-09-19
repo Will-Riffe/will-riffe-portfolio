@@ -5,9 +5,11 @@ article {
 }
 
 div.general {
-  margin: 2vw;
+  margin: 5vw 1vw 1vw 1vw;
   padding: 2vw;
-  height: 85%;
+  height: 100%;
+  text-justify: newspaper;
+  animation: flicker2 120s infinite;
 }
 
 main {
@@ -134,6 +136,11 @@ button.active {
 
 section {
   width: 100%;
+}
+
+.scroll {
+  overflow-y: scroll;
+  scroll-behavior: smooth;
 }
 
 .main-content {

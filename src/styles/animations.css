@@ -98,19 +98,19 @@
   
   @keyframes flicker2 {
     0% {
-      opacity: 0.75;
-      text-shadow: var(--g);
-    }
-    5% {
-      opacity: 0.8;
-      text-shadow: var(--g);
-    }
-    10% {
       opacity: 0.85;
       text-shadow: var(--g);
     }
-    15% {
+    5% {
+      opacity: 0.875;
+      text-shadow: var(--g);
+    }
+    10% {
       opacity: 0.9;
+      text-shadow: var(--g);
+    }
+    15% {
+      opacity: 0.925;
       text-shadow: var(--g);
     }
     20% {
@@ -118,35 +118,35 @@
       text-shadow: var(--g);
     }
     25% {
-      opacity: 0.9;
+      opacity: 1.2;
       text-shadow: var(--g);
     }
     30% {
-      opacity: 0.95;
-      text-shadow: var(--g);
-    }
-    35% {
       opacity: 1;
       text-shadow: var(--g);
     }
+    35% {
+      opacity: 1.1;
+      text-shadow: var(--g);
+    }
     40% {
-      opacity: 0.95;
+      opacity: 0.975;
       text-shadow: var(--g);
     }
     45% {
-      opacity: 0.9;
+      opacity: 0.95;
       text-shadow: var(--g);
     }
     50% {
-      opacity: 0.85;
+      opacity: 0.925;
       text-shadow: var(--g);
     }
     55% {
-      opacity: 0.8;
+      opacity: 0.95;
       text-shadow: var(--g);
     }
     60% {
-      opacity: 0.95;
+      opacity: 0.975;
       text-shadow: var(--g);
     }
     65% {
@@ -154,15 +154,15 @@
       text-shadow: var(--g);
     }
     70% {
-      opacity: 0.95;
+      opacity: 1;
       text-shadow: var(--g);
     }
     75% {
-      opacity: 0.925;
+      opacity: 1.1;
       text-shadow: var(--g);
     }
     80% {
-      opacity: 0.95;
+      opacity: 1.2;
       text-shadow: var(--g);
     }
     85% {
@@ -170,7 +170,7 @@
       text-shadow: var(--g);
     }
     90% {
-      opacity: 0.95;
+      opacity: 1;
       text-shadow: var(--g);
     }
     95% {
@@ -178,7 +178,7 @@
       text-shadow: var(--g);
     }
     100% {
-      opacity: 1;
+      opacity: .9;
       text-shadow: var(--g);
     }
   }

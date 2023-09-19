@@ -1,7 +1,4 @@
-.scroll {
-  overflow-y: scroll;
-  scroll-behavior: smooth;
-}
+
 
 div.center {
   display: flex;
