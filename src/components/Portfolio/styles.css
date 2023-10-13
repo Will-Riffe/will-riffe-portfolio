@@ -1,0 +1,9 @@
+.content {
+    height: 87%;
+    width: 90%;
+    margin: 20px auto auto auto;
+}
+
+.display-border {
+    border-style:groove;
+  }

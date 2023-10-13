@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import "./styles.css";
 
 function Portfolio(props) {
   const [activeTab, setActiveTab] = useState("featured");
@@ -35,7 +36,9 @@ function Portfolio(props) {
             </React.Fragment>
           ))}
         </nav>
-        <div className="content"></div>
+        <div className="content display-border">
+
+        </div>
       </article>
     </section>
   );

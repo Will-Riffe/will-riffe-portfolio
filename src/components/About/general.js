@@ -10,7 +10,7 @@ function General() {
                 My name is Will Riffe, and this is my portfolio 
                 website. It's a work in progress, and I expect 
                 it'll always be so. However, it should be quite 
-                presentable by 9/30/2023, if nothing else.
+                presentable by 10/30/2023, if nothing else.
             </h2>
             <h2>
                 I think the most time consuming process is for 

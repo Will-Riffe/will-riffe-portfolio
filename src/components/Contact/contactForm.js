@@ -28,7 +28,6 @@ function ContactForm() {
 
   return (
     <section className="contact-form makeMeToasty">
-      <h1>~ HMU ~</h1>
       <form onSubmit={handleSubmit}>
         <div className="entry-div">
           <label htmlFor="name">Name:</label>

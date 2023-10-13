@@ -10,6 +10,7 @@ div.general {
   height: 100%;
   text-justify: newspaper;
   animation: flicker2 120s infinite;
+  color:var(--textc);
 }
 
 main {
@@ -77,6 +78,23 @@ nav button.article-tab-active {
 }
 
 nav button.article-tab-active h4 {
+  color: var(--background-color);
+  text-shadow: 2px 2px 4px #000;
+  width:95%;
+}
+
+nav div.article-active {
+  background-color: var(--textc);
+  border: none;
+  margin: auto;
+  align-self: center;
+  width: 100%;
+  justify-content:end;
+  height: 100%;
+  border-radius: 2%;
+}
+
+nav div.article-active h4 {
   color: var(--background-color);
   text-shadow: 2px 2px 4px #000;
   width:95%;
