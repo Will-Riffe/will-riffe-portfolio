@@ -13,7 +13,7 @@ function General() {
                 presentable by 10/30/2023, if nothing else.
             </h2>
             <h2>
-                I think the most time consuming process is for 
+                The most time consuming process is for 
                 everything to come together copacetically. The 
                 challenge for my portfolio has been to get everything
                 looking "complete" in its composition, and consistent
