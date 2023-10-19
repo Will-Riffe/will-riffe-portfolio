@@ -27,7 +27,7 @@ function ContactForm() {
   };
 
   return (
-    <section className="contact-form makeMeToasty">
+    <section className="contact-form">
       <form onSubmit={handleSubmit}>
         <div className="entry-div">
           <label htmlFor="name">Name:</label>
