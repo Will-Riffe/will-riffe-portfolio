@@ -1,11 +1,13 @@
 import React, { useState } from "react";
 import "./styles.css";
+import Featured from "./featured";
+import ProjectView from "./projectView";
 
 function Portfolio(props) {
   const [activeTab, setActiveTab] = useState("featured");
 
   const tabs = [
-    { id: "featured", label: "Featured Projects", to: "featured-content" },
+    { id: "featured", label: "Featured Projects", to: "ProjectView" },
     { id: "professional", label: "Professional Projects", to: "professional-content" },
     { id: "school", label: "School Projects", to: "school-content" },
   ];
@@ -20,6 +22,7 @@ function Portfolio(props) {
         <div className="content-header">Portfolio</div>
       </header>
       <article>
+        
         <nav className="article-nav">
           {tabs.map((tab, index) => (          /* iterate over tab array, generates JSX elements for each tab Groups
                                                   the elements together and adds vertical divider after the first tab */
@@ -36,8 +39,9 @@ function Portfolio(props) {
             </React.Fragment>
           ))}
         </nav>
-        <div className="content display-border">
 
+        <div className="content display-border">
+                <projectView></projectView>
         </div>
       </article>
     </section>

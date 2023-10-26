@@ -1,6 +1,6 @@
 import React from "react";
 
-function displayProject(props) {
+function Featured(props) {
   return (
     <div>
       <Project
@@ -39,4 +39,4 @@ function displayProject(props) {
     </div>
   );
 }
-export default displayProject;
+export default Featured;
