@@ -50,6 +50,12 @@ footer {
   height: 15vh;
 }
 
+.smallScroll {
+  overflow: auto;
+  scroll-behavior: smooth;
+  scrollbar-color: var(--glow);
+}
+
 
 @media screen and (min-width: 1024px) {
 
@@ -82,4 +88,6 @@ footer {
     width: 100%;
     height: 25vh;
   }
+
+
 }

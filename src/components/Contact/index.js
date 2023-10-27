@@ -16,8 +16,8 @@ function Contact(props) {
             <h4>Get in touch with me here</h4>
           </div>
         </nav>
-        <div className="content">
-          <div className="alternate-order display-border">
+        <div className="content smallScroll">
+          <div className="alternate-order">
             <ContactForm />
           </div>
           <div>
