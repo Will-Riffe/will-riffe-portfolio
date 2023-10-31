@@ -1,12 +1,13 @@
 import React, { useState } from "react";
 import General from "./general.js";
+import Blog from "./blog";
 
 function About(props) {
   const [activeTab, setActiveTab] = useState("general");
 
   const tabs = [
-    { id: "general", label: "General", to: "general-content" },
-    { id: "blog", label: "Blog", to: "blog-content"},
+    { id: "general", label: "General", component: <General />},
+    { id: "blog", label: "Blog", component: <Blog/> },
   ];
 
   const handleTabClick = (tab) => {
@@ -27,14 +28,16 @@ function About(props) {
                 className={`article-tab ${
                   activeTab === tab.id ? "article-tab-active" : ""
                 }`}
-                onClick = {() => handleTabClick(tab.id)}
+                onClick={() => handleTabClick(tab.id)}
               >
                 <h4>{tab.label}</h4>
               </button>
             </React.Fragment>
           ))}
         </nav>
-      <General />
+        <div>
+          {tabs.find((tab) => tab.id === activeTab).component}
+        </div>
       </article>
     </section>
   );

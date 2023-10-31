@@ -2,29 +2,27 @@ import React from "react";
 
 function General() {
     return (
-        <div
-            className="general scroll">
-            <h2>
-                Greetings,
-                <br/>
-                My name is Will Riffe, and this is my portfolio 
-                website. It's a work in progress, and I expect 
-                it'll always be so. However, it should be quite 
-                presentable by 10/30/2023, if nothing else.
-            </h2>
-            <h2>
-                The most time consuming process is for 
-                everything to come together copacetically. The 
-                challenge for my portfolio has been to get everything
-                looking "complete" in its composition, and consistent
-                in its theme. I'm sure it won't be everyones cup of 
-                tea... however, the 'retro,' or anachronistic gui I 
-                have going aims to be something which is recognizeable
-                for what it is. My personal hope is that I'll feel 
-                satisfied with the style for a long time too, as I'd
-                really prefer to work on the content at this point.
-            </h2>
-        </div>
+<div className="general scroll">
+    <h2>
+        Hi, I'm Will Riffe, and this is my web app. 
+    </h2>
+    <h2>
+        My journey into software development has been quite an adventure: 
+        Having initially pursued a passion for classical geology, I found 
+        my way into the world of web development over the past year or so. I've 
+        honed my skills in languages like HTML, CSS, and JavaScript, even 
+        completing the Rutgers Full Stack Coding Bootcamp through EdX to learn how to 
+        tackle projects professionally and adapt to new technologies swiftly.
+    </h2>
+    <h2>
+        I'm enthusiastic about front end work, and UI design for web applications 
+         it's where I currently excel. However, as you will see as you review my portfolio,
+        I thrive on challenges, and I am fairly proficient with back end work as well. 
+        My goal, currently, is to find work in web development, and until then I'll be 
+        exercising my skills on volunteer work and pet projects.
+    </h2>
+</div>
+
     )
 }
 export default General;
