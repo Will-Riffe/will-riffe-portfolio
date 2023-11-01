@@ -1,9 +1,10 @@
 import React from "react";
+import ProjectView from "./projectView";
 
 function Featured(props) {
   return (
     <div>
-      <Project
+      <ProjectView
         name={"Sustain-A-Plate"}
         src={require("../../assets/Sustain-a-Plate-Page.png")}
         link={"https://sustain-a-plate-a492ad2a8239.herokuapp.com/"}
@@ -13,7 +14,7 @@ function Featured(props) {
         }
       />
 
-      <Project
+      <ProjectView
         name={"Permu-Tater"}
         src={require("../../assets/permutater.png")}
         link={"https://permu-tater.herokuapp.com/"}
@@ -25,7 +26,7 @@ function Featured(props) {
         }
       />
 
-      <Project
+      <ProjectView
         name={"Event Scout"}
         src={require("../../assets/EventScout.png")}
         link={"https://jadyngg19.github.io/Event-Scout/"}

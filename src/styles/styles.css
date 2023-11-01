@@ -157,7 +157,7 @@ section {
 }
 
 .scroll {
-  overflow-y: scroll;
+  overflow: auto;
   scroll-behavior: smooth;
 }
 
@@ -270,6 +270,7 @@ section {
 
   .content-header {
     margin: 10px auto 10px 4vw;
+    padding-right: 7vh;
   }
 
   h4 {

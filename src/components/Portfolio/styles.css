@@ -1,9 +1,42 @@
-.content {
-    height: 87%;
-    width: 90%;
-    margin: 20px auto auto auto;
-}
 
 .display-border {
     border-style:groove;
   }
+a.squeezeIn {
+    width:50%;
+}
+img {
+    width: 100%;
+    height: auto;
+}
+
+
+div.portfolio {
+        display:flex;
+        flex-direction:row;
+        align-content: center;
+        height: 87%;
+        width: 95%;
+        margin: 5% 2.5% 5% 2.5%;
+    }
+
+p.portfolio {
+    width: 60%;
+    margin: -2.5% 2.5% 0 2.5%;
+}
+
+.titleRow {
+    display: flex;
+    flex-direction:row;
+    align-content: center;
+    justify-content: center;
+    margin: 0 0 2.5% 0;
+}
+
+svg {
+    margin: 25% 0 0 10px;
+}
+
+div.smallScroll {
+    overflow: auto;
+    scroll-behavior: smooth;  }
