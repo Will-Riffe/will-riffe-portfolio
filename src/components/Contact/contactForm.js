@@ -37,6 +37,7 @@ function ContactForm() {
             type="text"
             id="name"
             name="name"
+            placeholder="Sorry in advance"
             value={formData.name}
             onChange={handleChange}
             required
@@ -50,6 +51,7 @@ function ContactForm() {
             type="email"
             id="email"
             name="email"
+            placeholder="These fields are inactive"
             value={formData.email}
             onChange={handleChange}
             required
@@ -59,9 +61,10 @@ function ContactForm() {
           <label htmlFor="message">Message:</label>
           <br />
           <textarea
-            className="message-box box-border"
+            className="message-box box-border smallScroll"
             id="message"
             name="message"
+            placeholder="I'm currently hosting on GitHub Pages; I need either a serverless solution or to host elsewhere (decision in progress). The social media icons work, though."
             value={formData.message}
             onChange={handleChange}
             required

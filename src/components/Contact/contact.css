@@ -8,6 +8,7 @@ div.center {
   display: flex;
   justify-content: center;
   width:100%;
+  margin-bottom: 30px;
 }
 
 footer {
@@ -35,10 +36,6 @@ footer {
   border-color: var(--textc);
 }
 
-.alternate-order {
-  display: flex;
-  flex-direction: row;
-}
 
 .input-box {
   margin: 0 0 0 0;
@@ -56,10 +53,18 @@ footer {
   scrollbar-color: var(--glow);
 }
 
+.reverseSmall {
+  display:flex;
+  flex-direction: column-reverse;
+}
 
 @media screen and (min-width: 1024px) {
 
-  .alternate-order {
+  div.center {
+    margin-bottom: auto;
+  }
+
+  .half-wide {
     width: 50vw;
   }
   
@@ -89,5 +94,8 @@ footer {
     height: 25vh;
   }
 
+  .reverseSmall {
+    flex-direction: row;
+  }
 
 }
