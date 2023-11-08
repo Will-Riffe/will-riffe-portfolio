@@ -4,6 +4,12 @@ article {
   margin: 2vh auto 0 auto;
 }
 
+.content {
+  height: 90%;
+  width: 90%;
+  margin: 20px auto auto auto;
+}
+
 div.general {
   margin: 5vw 1vw 1vw 1vw;
   padding: 2vw;
@@ -156,13 +162,8 @@ section {
   width: 100%;
 }
 
-.scroll {
-  overflow: auto;
-  scroll-behavior: smooth;
-}
-
 .main-content {
-  height: 80%;
+  height: 90%;
   width: 100%;
 }
 
@@ -273,6 +274,15 @@ section {
     padding-right: 7vh;
   }
 
+  .content {
+    height: 87%;
+    width: 90%;
+    margin: 20px auto auto auto;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+  }
+
   h4 {
     animation: flicker2 20s infinite;
     font-size: x-large;
@@ -300,4 +310,11 @@ section {
     height: 60px;
     margin: 0.5rem 1vw 0.5rem 0vw;
   }
+
+  .smallScroll {
+    overflow-y: scroll;
+    scroll-behavior: smooth;
+    scrollbar-color: var(--glow);
+  }
+  
 }

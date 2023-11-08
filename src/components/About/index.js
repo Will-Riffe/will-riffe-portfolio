@@ -35,7 +35,7 @@ function About(props) {
             </React.Fragment>
           ))}
         </nav>
-        <div>
+        <div className="content smallScroll">
           {tabs.find((tab) => tab.id === activeTab).component}
         </div>
       </article>

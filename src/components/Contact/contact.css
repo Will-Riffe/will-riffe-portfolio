@@ -1,8 +1,4 @@
-.content {
-  height: 90%;
-  width: 90%;
-  margin: 20px auto auto auto;
-}
+
 
 div.center {
   display: flex;
@@ -47,11 +43,6 @@ footer {
   height: 15vh;
 }
 
-.smallScroll {
-  overflow: auto;
-  scroll-behavior: smooth;
-  scrollbar-color: var(--glow);
-}
 
 .reverseSmall {
   display:flex;
@@ -68,12 +59,7 @@ footer {
     width: 50vw;
   }
   
-  .content {
-    height: 87%;
-    width: 90%;
-    margin: 20px auto auto auto;
-    display:flex;
-  }
+
   
   footer {
     width: 100%;
