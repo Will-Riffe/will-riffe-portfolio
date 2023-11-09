@@ -314,7 +314,6 @@ section {
   .smallScroll {
     overflow-y: scroll;
     scroll-behavior: smooth;
-    scrollbar-color: var(--glow);
   }
   
 }

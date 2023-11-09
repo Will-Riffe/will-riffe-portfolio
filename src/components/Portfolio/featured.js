@@ -3,7 +3,7 @@ import ProjectView from "./projectView";
 
 function Featured(props) {
   return (
-    <div>
+    <div className="smallScroll">
       <ProjectView
         name={"Sustain-A-Plate"}
         src={require("../../assets/Sustain-a-Plate-Page.png")}
