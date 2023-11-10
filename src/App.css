@@ -14,9 +14,8 @@
 * {
   box-sizing: border-box;
   color: var(--textc);
-  font-family:monospace;
+  font-family: monospace;
 }
-
 
 .show-border {
   border-style: dashed;
@@ -41,7 +40,6 @@
 }
 
 .crt::before {
-
   content: " ";
   display: block;
   position: absolute;

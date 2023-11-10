@@ -6,11 +6,7 @@ function ProjectView(props) {
     <>
       <div className="titleRow">
         <h1>{props.name}</h1>
-        <a
-          href={props.githubLink}
-          target="_blank"
-          rel="noopener noreferrer"
-        >
+        <a href={props.githubLink} target="_blank" rel="noopener noreferrer">
           <GitHubIcon />
         </a>
       </div>
@@ -18,9 +14,7 @@ function ProjectView(props) {
         <a className="squeezeIn" href={props.link} target="_blank">
           <img src={props.src} alt="Project Screenshot" />
         </a>
-        <p className="portfolio">
-          {props.description}
-        </p>
+        <p className="portfolio">{props.description}</p>
       </div>
       <br />
     </>

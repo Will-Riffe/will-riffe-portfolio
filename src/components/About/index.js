@@ -6,8 +6,8 @@ function About(props) {
   const [activeTab, setActiveTab] = useState("general");
 
   const tabs = [
-    { id: "general", label: "General", component: <General />},
-    { id: "blog", label: "Blog", component: <Blog/> },
+    { id: "general", label: "General", component: <General /> },
+    { id: "blog", label: "Blog", component: <Blog /> },
   ];
 
   const handleTabClick = (tab) => {

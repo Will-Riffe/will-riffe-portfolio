@@ -1,9 +1,7 @@
-
-
 div.center {
   display: flex;
   justify-content: center;
-  width:100%;
+  width: 100%;
   margin-bottom: 30px;
 }
 
@@ -32,7 +30,6 @@ footer {
   border-color: var(--textc);
 }
 
-
 .input-box {
   margin: 0 0 0 0;
   width: 100%;
@@ -43,14 +40,12 @@ footer {
   height: 15vh;
 }
 
-
 .reverseSmall {
-  display:flex;
+  display: flex;
   flex-direction: column-reverse;
 }
 
 @media screen and (min-width: 1024px) {
-
   div.center {
     margin-bottom: auto;
   }
@@ -58,9 +53,7 @@ footer {
   .half-wide {
     width: 50vw;
   }
-  
 
-  
   footer {
     width: 100%;
     margin: 30% auto;
@@ -83,5 +76,4 @@ footer {
   .reverseSmall {
     flex-direction: row;
   }
-
 }
