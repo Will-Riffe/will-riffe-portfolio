@@ -16,7 +16,7 @@ function Contact(props) {
             <h4>Get in touch with me here</h4>
           </div>
         </nav>
-        <div className="content smallScroll reverseSmall">
+        <div className="content smallScroll">
           <div className="half-wide">
             <ContactForm />
           </div>

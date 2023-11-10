@@ -18,7 +18,6 @@ div.general {
   text-justify: newspaper;
   animation: flicker2 120s infinite;
   color:var(--textc);
-  overflow: hidden;
 }
 
 main {
@@ -167,6 +166,7 @@ section {
 .main-content {
   height: 90%;
   width: 100%;
+  margin-top:10px;
 }
 
 .main-btn {
@@ -221,7 +221,7 @@ section {
   box-shadow: 0 0 5px var(--glow);
   width: 95%;
   height: 30px;
-  margin: 0 auto 10px auto;
+  margin: 0 auto auto auto;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -262,13 +262,15 @@ section {
   }
 
   nav.article-nav {
-    margin: 20px auto auto auto;
+    margin: 0 auto auto auto;
 
   }
 
   .main-content {
     height: 100%;
     width: 82%;
+    margin-top:0;
+
   }
 
   .content-header {

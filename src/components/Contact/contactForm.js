@@ -64,7 +64,7 @@ function ContactForm() {
             className="message-box box-border smallScroll"
             id="message"
             name="message"
-            placeholder="I'm currently hosting on GitHub Pages; I need either a serverless solution or to host elsewhere (decision in progress). The social media icons work, though."
+            placeholder="I'm currently hosting on GitHub Pages; I need either a serverless solution or to host elsewhere (decision in progress). The below social media icons work, though."
             value={formData.message}
             onChange={handleChange}
             required
