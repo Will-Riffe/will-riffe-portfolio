@@ -2,6 +2,7 @@ article {
   height:75%;
   width:97%;
   margin: 2vh auto 0 auto;
+  overflow: hidden;
 }
 
 .content {
@@ -11,12 +12,13 @@ article {
 }
 
 div.general {
-  margin: 5vw 1vw 1vw 1vw;
+  margin: 1vw 1vw 1vw 1vw;
   padding: 2vw;
   height: 100%;
   text-justify: newspaper;
   animation: flicker2 120s infinite;
   color:var(--textc);
+  overflow: hidden;
 }
 
 main {

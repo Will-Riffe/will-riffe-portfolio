@@ -1,42 +1,60 @@
-
 .display-border {
-    border-style:groove;
+    border-style: groove;
   }
-a.squeezeIn {
-    width:50%;
-}
-img {
+  
+  a.squeezeIn {
+    width: 90%;
+  }
+  
+  img {
     width: 100%;
     height: auto;
-}
-
-
-div.portfolio {
-        display:flex;
-        flex-direction:row;
-        align-content: center;
-        height: 87%;
-        width: 95%;
-        margin: 5% 2.5% 5% 2.5%;
-    }
-
-p.portfolio {
-    width: 60%;
-    margin: -2.5% 2.5% 0 2.5%;
-}
-
-.titleRow {
+  }
+  
+  div.portfolio {
     display: flex;
-    flex-direction:row;
-    align-content: center;
+    flex-direction: column;
+    align-items: center; /* Align items in the center */
+    width: 95%;
+    margin: 5% 2.5% 5% 2.5%;
+  }
+  
+  p.portfolio {
+    width: 90%;
+    margin: 0 2.5% 0 2.5%; /* Adjusted margin */
+    overflow-wrap: normal;
+  }
+  
+  .titleRow {
+    display: flex;
+    flex-direction: row;
+    align-items: center; /* Align items in the center */
     justify-content: center;
     margin: 0 0 2.5% 0;
-}
-
-svg {
-    margin: 25% 0 0 10px;
-}
-
-div.smallScroll {
+  }
+  
+  svg {
+    margin: 0 0 0 10px; /* Adjusted margin */
+  }
+  
+  div.smallScroll {
     overflow: auto;
-    scroll-behavior: smooth;  }
+    scroll-behavior: smooth;
+  }
+  
+  @media screen and (min-width: 1024px) {
+    a.squeezeIn {
+      width: 50%;
+    }
+  
+    div.portfolio {
+      flex-direction: row; /* Change to row for larger screens */
+      align-items: flex-start; /* Align items to the start for larger screens */
+    }
+  
+    p.portfolio {
+      width: 40%; /* Adjusted width for larger screens */
+      margin: 0 2.5% 0 2.5%;
+    }
+  }
+  
