@@ -3,7 +3,7 @@
 }
 
 a.squeezeIn {
-  width: 90%;
+  width: 50%;
 }
 
 img {
@@ -14,27 +14,34 @@ img {
 div.portfolio {
   display: flex;
   flex-direction: column;
-  align-items: center; /* Align items in the center */
+  align-items: center; 
   width: 95%;
   margin: 5% 2.5% 5% 2.5%;
 }
 
 p.portfolio {
   width: 90%;
-  margin: 0 2.5% 0 2.5%; /* Adjusted margin */
+  margin: 0 2.5% 0 2.5%; 
   overflow-wrap: normal;
 }
 
 .titleRow {
   display: flex;
   flex-direction: row;
-  align-items: center; /* Align items in the center */
+  align-items: center; 
   justify-content: center;
   margin: 0 0 2.5% 0;
 }
 
+.technologies {
+  margin: 0 10px 0 10px;
+  display:flex;
+  flex-direction: column;
+  flex-wrap:wrap;
+}
+
 svg {
-  margin: 0 0 0 10px; /* Adjusted margin */
+  margin: 0 0 0 10px; 
 }
 
 div.smallScroll {
@@ -42,18 +49,34 @@ div.smallScroll {
   scroll-behavior: smooth;
 }
 
+h3.projectView {
+  margin-bottom: 10px;
+}
+
+ul {
+  list-style: none; 
+  padding: 0;
+  margin-top: 5px;
+}
+
+li {
+  display: inline-block; 
+  margin-right: 10px; 
+}
+
 @media screen and (min-width: 1024px) {
   a.squeezeIn {
-    width: 50%;
+    width: 90%;
+    height:auto;
   }
 
   div.portfolio {
-    flex-direction: row; /* Change to row for larger screens */
-    align-items: flex-start; /* Align items to the start for larger screens */
+    align-items: start;
+    flex-direction: column;
   }
 
   p.portfolio {
-    width: 40%; /* Adjusted width for larger screens */
-    margin: 0 2.5% 0 2.5%;
+    width: 100%; 
+    margin: 0%;
   }
 }

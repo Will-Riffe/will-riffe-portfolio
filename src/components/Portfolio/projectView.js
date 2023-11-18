@@ -10,13 +10,32 @@ function ProjectView(props) {
           <GitHubIcon />
         </a>
       </div>
+
       <div className="portfolio">
         <a className="squeezeIn" href={props.link} target="_blank">
           <img src={props.src} alt="Project Screenshot" />
         </a>
-        <p className="portfolio">{props.description}</p>
+        <div>
+          <div className="technologies">
+            <div>
+              <h3 className="projectView">Technologies Used:</h3>
+              <ul>
+                {props.technologies.map((tech, index) => (
+                  <li key={index}>{tech}</li>
+                ))}
+              </ul>
+                <br />
+            </div>
+            <div>
+              <h3>Description:</h3>
+              <p className="portfolio">{props.description}</p>
+            </div>
+          </div>
+          <br />
+          <br />
       </div>
-      <br />
+    </div>
+    <br />
     </>
   );
 }
