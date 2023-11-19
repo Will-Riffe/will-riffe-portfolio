@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/will-riffe-portfolio/static/css/main.7fd55833.css",
-    "main.js": "/will-riffe-portfolio/static/js/main.10e53b10.js",
+    "main.css": "/will-riffe-portfolio/static/css/main.e1200f8d.css",
+    "main.js": "/will-riffe-portfolio/static/js/main.223ae011.js",
     "static/js/787.1bc61d5c.chunk.js": "/will-riffe-portfolio/static/js/787.1bc61d5c.chunk.js",
     "static/media/Sustain-a-Plate-Page.png": "/will-riffe-portfolio/static/media/Sustain-a-Plate-Page.d903b54b8e6d7b8b2288.png",
-    "static/media/EventScout.png": "/will-riffe-portfolio/static/media/EventScout.dc004ae45292db0752a3.png",
-    "static/media/permutater.png": "/will-riffe-portfolio/static/media/permutater.5614a9c6ecccdeadbd1a.png",
+    "static/media/EventScout.png": "/will-riffe-portfolio/static/media/EventScout.fcf8da1ae595957eae55.png",
+    "static/media/permutater.png": "/will-riffe-portfolio/static/media/permutater.ca4ac2652b29567ef2de.png",
     "index.html": "/will-riffe-portfolio/index.html",
-    "main.7fd55833.css.map": "/will-riffe-portfolio/static/css/main.7fd55833.css.map",
-    "main.10e53b10.js.map": "/will-riffe-portfolio/static/js/main.10e53b10.js.map",
+    "main.e1200f8d.css.map": "/will-riffe-portfolio/static/css/main.e1200f8d.css.map",
+    "main.223ae011.js.map": "/will-riffe-portfolio/static/js/main.223ae011.js.map",
     "787.1bc61d5c.chunk.js.map": "/will-riffe-portfolio/static/js/787.1bc61d5c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.7fd55833.css",
-    "static/js/main.10e53b10.js"
+    "static/css/main.e1200f8d.css",
+    "static/js/main.223ae011.js"
   ]
 }
