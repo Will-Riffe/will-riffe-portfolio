@@ -2,6 +2,15 @@
   visibility: visible;
 }
 
+div.center{
+  display:flex;
+  flex-direction: row;
+  justify-content: center;
+  overflow:hidden;
+  overflow-wrap: break-word;
+
+}
+
 @media screen and (min-width: 1024px) {
   .hiddie-pants {
     visibility: none;

@@ -130,6 +130,15 @@ section h1 {
   text-align: center;
 }
 
+h2 {
+  animation: flicker2 40s infinite;
+  font-size:x-large;
+}
+
+h3 {
+  animation: flicker2 40s infinite;
+}
+
 h4 {
   margin: 0;
   animation: flicker1 20s infinite;

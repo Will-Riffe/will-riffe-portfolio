@@ -11,7 +11,7 @@ footer {
 }
 
 .social-icons {
-  color: #d59901;
+  color: var(--glow);
   height: 3em;
   margin: 15px 10px 0 10px;
 }
