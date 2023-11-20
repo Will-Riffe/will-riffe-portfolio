@@ -1,24 +1,51 @@
-import React from "react";
+import React, { useState } from "react";
+import Experience from "./experience";
+import Skills from "./skills";
+import Education from "./education";
+import Hobbies from "./hobbies";
+
+import "./styles.css";
 
 function Resume(props) {
+      
+  const [activeTab, setActiveTab] = useState("skills");
+
+  const tabs = [
+    { id: "skills", label: "Skills", component: <Skills /> },
+    { id: "exp", label: "Experience", component: <Experience />},
+    { id: "education", label: "Education", component: <Education />},
+    { id: "hobbies", label: "Hobbies", component: <Hobbies />}
+    ];
+
+  const handleTabClick = (tab) => {
+    setActiveTab(tab);
+  };
+
   return (
-    <section className="show-border main-content">
-      <header className="show-border ">
+    <section className="main-content">
+      <header>
         <div className="content-header">Resume</div>
       </header>
-      <h1>Something Wicked this way comes!</h1>
-      <div className="temp-center">
-        <h2>This page is a work in progress</h2>
-        <h2>In the meantime, view my resume here:</h2>
-        <h3>
-          <a
-            href="https://docs.google.com/document/d/1Vje3AEc4ljenISyJjLVpy9ByVyoiplgE/edit?usp=sharing&ouid=117525258448058942395&rtpof=true&sd=true"
-            target="_blank"
-          >
-            Click Here!
-          </a>
-        </h3>
-      </div>
+      <article>
+        <nav className="article-nav hiddie-pants">
+            {tabs.map((tab, index) => (
+              <React.Fragment key={tab.id}>
+                {index !== 0 && <h4 className="divider">|</h4>}
+                <button
+                  className={`article-tab ${
+                    activeTab === tab.id ? "article-tab-active" : ""
+                  }`}
+                  onClick={() => handleTabClick(tab.id)}
+                >
+                  <h4>{tab.label}</h4>
+                </button>
+              </React.Fragment>
+            ))}
+          </nav>
+          <div className="content smallScroll">
+            {tabs.find((tab) => tab.id === activeTab).component}
+          </div>
+      </article>
     </section>
   );
 }

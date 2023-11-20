@@ -1,0 +1,9 @@
+.hiddie-pants {
+  visibility: visible;
+}
+
+@media screen and (min-width: 1024px) {
+  .hiddie-pants {
+    visibility: none;
+  }
+}

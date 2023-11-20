@@ -1,6 +1,5 @@
 import React from "react";
 import ContactForm from "./contactForm";
-import Upcoming from "./upcoming";
 import SocialFooter from "./socialFooter";
 import "./contact.css";
 
