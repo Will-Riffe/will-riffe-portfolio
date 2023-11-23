@@ -4,7 +4,7 @@
   --inner-color: #02fb01;
   --scan-inner: #00ff55;
   --border-color: rgb(0, 143, 29);
-  --textc: rgb(213, 153, 1);
+  --textc: #d59901;
   --glow: #ffbf00;
   --bg-gradient: linear-gradient(0deg, var(--inner-color), var(--outer-color));
   --box-shadow: 0px 0px 40px 8px #cb9704;

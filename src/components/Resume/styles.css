@@ -2,13 +2,18 @@
   visibility: visible;
 }
 
-div.center{
+div.center-row{
   display:flex;
   flex-direction: row;
   justify-content: center;
   overflow:hidden;
   overflow-wrap: break-word;
 
+}
+
+div.center{
+  align-content: center;
+  text-align:center;
 }
 
 @media screen and (min-width: 1024px) {
