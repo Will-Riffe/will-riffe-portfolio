@@ -24,7 +24,7 @@ function Resume(props) {
   return (
     <section className="main-content">
       <header>
-        <div className="content-header">Resume</div>
+        <div className="content-header">Resumé</div>
       </header>
       <article>
         <nav className="article-nav hiddie-pants">

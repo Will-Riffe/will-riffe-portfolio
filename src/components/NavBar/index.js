@@ -10,7 +10,7 @@ function NavBar(props) {
     { id: "about", label: "ABOUT", to: "/" },
     { id: "portfolio", label: "PORTFOLIO", to: "/portfolio" },
     { id: "contact", label: "CONTACT", to: "/contact" },
-    { id: "resume", label: "RESUME", to: "/resume" },
+    { id: "resume", label: "RESUMÉ", to: "/resume" },
   ];
 
   const [activeButton, setActiveButton] = useState(null);
