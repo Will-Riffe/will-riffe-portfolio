@@ -16,6 +16,12 @@ div.center{
   text-align:center;
 }
 
+div.divider{
+  height:2.5px;
+  background-color: var(--textc);
+  margin: 5px 0px 25px 0px;
+}
+
 li {
   display:list-item;
   list-style-type: disc;

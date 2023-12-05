@@ -14,7 +14,7 @@ function Resume(props) {
     { id: "skills", label: "Skills", component: <Skills /> },
     { id: "exp", label: "Experience", component: <Experience />},
     { id: "education", label: "Education", component: <Education />},
-    { id: "hobbies", label: "Hobbies", component: <Hobbies />}
+    //{ id: "hobbies", label: "Hobbies", component: <Hobbies />}
     ];
 
   const handleTabClick = (tab) => {

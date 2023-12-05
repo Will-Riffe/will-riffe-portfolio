@@ -137,11 +137,13 @@ h2 {
 
 h3 {
   animation: flicker2 40s infinite;
+  font-size:large;
 }
 
 h4 {
   margin: 0;
   animation: flicker2 20s infinite;
+  font-size:medium;
 }
 
 h4.divider {
@@ -149,13 +151,25 @@ h4.divider {
   margin: -5px -0.9px 0px -0.9px;
 }
 
+h5 {
+  margin: 10px 0 10px 0;
+  animation: flicker2 20s infinite;
+  font-size:medium;
+  font-style:italic;
+  text-decoration:underline;
+}
+
 .hideOnSmall {
   display: none;
 }
 
-p {
+div p {
   margin: 20px 3px 0;
   animation: flicker1 25s infinite;
+}
+
+header p {
+  animation: flicker2 25s infinite;
 }
 
 label {
