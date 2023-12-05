@@ -1,5 +1,5 @@
 :root {
-  --g: 0 0 4px var(--glow);
+  --g: 0 0 4px var(--textc);
   --g2: 0 0 1.25px var(--glow);
   --bsg: -4px -4px 3.5px var(--glow);
   --bsg1: 0 0 10px 1px var(--glow);

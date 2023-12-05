@@ -141,7 +141,7 @@ h3 {
 
 h4 {
   margin: 0;
-  animation: flicker1 20s infinite;
+  animation: flicker2 20s infinite;
 }
 
 h4.divider {
@@ -155,7 +155,7 @@ h4.divider {
 
 p {
   margin: 20px 3px 0;
-  animation: flicker2 25s infinite;
+  animation: flicker1 25s infinite;
 }
 
 label {
